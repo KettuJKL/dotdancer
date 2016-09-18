@@ -4,3 +4,5 @@
 .lein-failures
 
 .nrepl-port
+
+.idea/workspace.xml
