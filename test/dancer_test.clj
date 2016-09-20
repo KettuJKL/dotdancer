@@ -8,4 +8,6 @@
       (is (= (fun-times "Joni") "I like your dancing Joni! Keep it going!"))
       (is (= (fun-times "Mia") "I like your dancing Mia! Keep it going!")))
     (testing "with invalid input."
-      (is (= (fun-times nil) "I like your dancing ! Keep it going!")))))
+      (is (= (fun-times nil) "I like your dancing ! Keep it going!")))
+    (testing "Parameterless call."
+      (is (= (fun-times) "Look at me dancing!")))))

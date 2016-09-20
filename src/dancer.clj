@@ -1,7 +1,9 @@
  (ns dancer)
 
- (defn fun-times [name]
-   (str "I like your dancing " name "! Keep it going!"))
+ (defn fun-times
+   ([] (str "Look at me dancing!"))
+   ([name]
+    (str "I like your dancing " name "! Keep it going!")))
 
  (defn start []
    (do
